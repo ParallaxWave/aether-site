@@ -1,0 +1,29 @@
+<div class="pop text-center p-8 mb-24" id="order">
+  <div>
+    <div class="text-gray-600 md:text-2xl text-lg">
+      <span class="md:text-6xl text-3xl pop font-semibold text-blue-500" >Order</span>
+      <hr class="m-4">
+<!--      <input type="text" class="px-4 py-3 shadow rounded-sm mb-4 w-1/2" placeholder="Name" [(ngModel)]="username"/> -->
+      <br>
+        <select class="px-4 py-3 shadow bg-white mb-4 w-1/2 pop" [(ngModel)]="service">
+          <option value="" disabled selected hidden>Service</option>
+          <option value="Web Development">Web Development</option>
+          <option value="UI-UX Design">UI-UX Design</option> 
+          <option value="App Development">App Development</option> 
+          <option value="Social Media Management">Social Media Management</option> 
+          <option value="Graphic Design">Graphic Design</option> 
+          <option value="Data Entry">Data Entry</option> 
+          <option value="Video Editing">Video Editing</option> 
+          <option value="Marketing Services">Marketing Services</option> 
+          <option value="AI Chatbots and Discord Bots">AI Chatbots and Discord Bots</option> 
+          <option value="Content Writing">Content Writing</option> 
+          <option value="Illustrations">Illustrations</option> 
+        </select>
+        <br>
+        <textarea type="text" class="pop px-4 py-3 bg-white shadow rounded-sm w-1/2 mb-4" placeholder="Description" [(ngModel)]="desc"> </textarea>
+        <br>
+        <button *ngIf="user" class="pop px-4 py-3 text-blue-500 bg-white border-blue-500 border-2 hover:shadow-xl rounded-sm shadow focus:outline-none hover:bg-blue-500 hover:text-white" (click)="submit()">Order</button>
+        <button *ngIf="!user" class="pop px-4 py-3 text-blue-500 bg-white border-blue-500 border-2 hover:shadow-xl rounded-sm shadow focus:outline-none hover:bg-blue-500 hover:text-white" (click)="doGoogleLogin()">Sign In With Google to Order</button>
+      </div>
+  </div>
+</div>

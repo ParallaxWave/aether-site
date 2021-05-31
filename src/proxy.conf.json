@@ -1,0 +1,7 @@
+{
+    "/*": {
+        "target": "htpp://acebackend.parallaxwave.repl.co",
+        "secure": false,
+        "logLevel": "debug"
+    }
+}

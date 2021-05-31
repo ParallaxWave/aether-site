@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "ace-webservices": {
+      "hosting": {
+        "aceDev": [
+          "ace-webservices"
+        ]
+      }
+    }
+  }
+}

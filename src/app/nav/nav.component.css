@@ -1,0 +1,13 @@
+.title{
+  font-family: "Poppins";
+}
+@media (max-width: 640px) {                  
+   .hide-on-small {
+      display: none;
+   }
+}
+.nav{
+   position: fixed;
+   z-index: 90;
+   width: 100vw;
+}
