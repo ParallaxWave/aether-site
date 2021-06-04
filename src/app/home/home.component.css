@@ -26,3 +26,36 @@
    border-color: #7289da;
    border-width: 2px;
 }
+.title{
+   font-size: 2.8em;
+}
+@media (min-width: 768px) {                  
+#home{
+  display: block;
+  box-sizing: border-box;
+  height: 80%;
+  background: rgb(52,152,219);
+background: -moz-linear-gradient(69deg, rgba(52,152,219,1) 24%, rgba(89,172,182,1) 79%);
+background: -webkit-linear-gradient(69deg, rgba(52,152,219,1) 24%, rgba(89,172,182,1) 79%);
+background: linear-gradient(69deg, rgba(52,152,219,1) 24%, rgba(89,172,182,1) 79%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3498db",endColorstr="#59acb6",GradientType=1);
+  clip-path: ellipse(96% 100% at 59.66% 0%);
+}
+}
+@media (max-width: 768px) {                  
+ #home{  
+    background: rgb(52,152,219);
+background: -moz-linear-gradient(69deg, rgba(52,152,219,1) 24%, rgba(89,172,182,1) 79%);
+background: -webkit-linear-gradient(69deg, rgba(52,152,219,1) 24%, rgba(89,172,182,1) 79%);
+background: linear-gradient(69deg, rgba(52,152,219,1) 24%, rgba(89,172,182,1) 79%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3498db",endColorstr="#59acb6",GradientType=1);
+  }
+}
+/*
+@media (max-width: 640px) {                  
+#home{
+   background-image: url('https://cdn.discordapp.com/attachments/847743058766331924/848901288381120522/Untitled_design_2.png');
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+}*/

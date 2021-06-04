@@ -11,12 +11,15 @@ import { ServicesComponent } from './services/services.component';
 import { OrderComponent } from './order/order.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { MatTabsModule } from '@angular/material/tabs';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AngularFireAnalyticsModule } from '@angular/fire/analytics';
 import { environment } from '../environments/environment';
 import { WebdevComponent } from './webdev/webdev.component';
+import { TestemonialsComponent } from './testemonials/testemonials.component';
+import { PortfoliosComponent } from './portfolios/portfolios.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,9 @@ import { WebdevComponent } from './webdev/webdev.component';
     AboutComponent,
     ServicesComponent,
     OrderComponent,
-    WebdevComponent
+    WebdevComponent,
+    TestemonialsComponent,
+    PortfoliosComponent
   ],
   imports: [
     BrowserModule,
@@ -37,6 +42,7 @@ import { WebdevComponent } from './webdev/webdev.component';
     AngularFireAuthModule, 
     AngularFirestoreModule,
     MatSnackBarModule,
+    MatTabsModule,
     AngularFireAnalyticsModule
   ],
   providers: [],

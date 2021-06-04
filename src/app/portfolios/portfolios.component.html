@@ -1,0 +1,37 @@
+<div class="text-center p-8" id="portfolios">
+  <div>
+    <div class="text-gray-600 md:text-xl text-md">
+      <span class="md:text-6xl text-3xl pop font-semibold text-gray-600" >Our Portfolios</span>
+      <mat-tab-group>
+        <mat-tab label="Website Development">
+      <div class="bg-white shadow-md rounded-sm lg:mx-20 md:mx-10 mx-4 my-4 centered hover:shadow-2xl p-5"id="port">
+        <img [src]="web_src" alt="Portfolios" class="w-full" (click)="next()" ng-class="{visible:imageVisible}">
+      </div>
+        </mat-tab>
+        <mat-tab label="Illustrations">
+      <div class="bg-white shadow-md rounded-sm lg:mx-20 md:mx-10 mx-4 my-4 centered hover:shadow-2xl p-5"id="port">
+        <img [src]="ill_src" alt="Portfolios" class="h-full" (click)="next()" ng-class="{visible:imageVisible}">
+      </div>
+        </mat-tab>
+      </mat-tab-group>
+        <!--
+      <div class="md:grid xl:grid-cols-2 md:grid-cols-1">
+      <div class="bg-white p-5 shadow-md rounded-sm m-4 centered hover:shadow-2xl">
+        <img src="https://media.discordapp.net/attachments/847743058766331924/848416714848600105/unknown.png">
+      </div>
+      <div class="bg-white p-5 shadow-md rounded-sm m-4 centered hover:shadow-2xl">
+        <img src="https://media.discordapp.net/attachments/847743058766331924/848416844427558912/unknown.png">
+      </div>
+      <div class="bg-white p-5 shadow-md rounded-sm m-4 centered hover:shadow-2xl">
+        <img src="https://media.discordapp.net/attachments/847743058766331924/848416436203683902/unknown.png">
+      </div>
+      <div class="bg-white p-5 shadow-md rounded-sm m-4 centered hover:shadow-2xl">
+        <img src="https://media.discordapp.net/attachments/847743058766331924/849213137298653184/develop-a-professional-website-for-you.png">
+      </div>
+      <div class="bg-white p-5 shadow-md rounded-sm m-4 centered hover:shadow-2xl">
+        <img src="https://media.discordapp.net/attachments/847743058766331924/849213181212885012/develop-a-professional-website-for-you.png">
+      </div>
+      </div>-->
+    </div>
+  </div>
+</div>

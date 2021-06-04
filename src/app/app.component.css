@@ -1,0 +1,11 @@
+.footer {
+  display: block;
+  box-sizing: border-box;
+  height: 100px;
+  background: rgb(52,152,219);
+  background: -moz-linear-gradient(69deg, rgba(52,152,219,1) 24%, rgba(89,172,182,1) 79%);
+  background: -webkit-linear-gradient(69deg, rgba(52,152,219,1) 24%, rgba(89,172,182,1) 79%);
+  background: linear-gradient(69deg, rgba(52,152,219,1) 24%, rgba(89,172,182,1) 79%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3498db",endColorstr="#59acb6",GradientType=1);
+  clip-path: ellipse(78% 100% at 43% 100%);
+}

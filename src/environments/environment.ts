@@ -5,12 +5,13 @@
 export const environment = {
   production: false,
   firebase: {
-     apiKey: "AIzaSyB6Ci5wjKMcTAIlN9IqJE9dtASVUfvoirw",
-    authDomain: "ace-webservices.firebaseapp.com",
-    projectId: "ace-webservices",
-    storageBucket: "ace-webservices.appspot.com",
-    messagingSenderId: "982640481502",
-    appId: "1:982640481502:web:f24b6369ef2a1266139e4f"
+    apiKey: "AIzaSyAt7FU9YF_kBELz4cJsLXI3RSdgcnnVO8c",
+    authDomain: "aether-services.firebaseapp.com",
+    projectId: "aether-services",
+    storageBucket: "aether-services.appspot.com",
+    messagingSenderId: "396001264074",
+    appId: "1:396001264074:web:f2da56cf51dc2d3f0b8f33",
+    measurementId: "G-DQ6HTCPTJ5"
   }
 };
 
