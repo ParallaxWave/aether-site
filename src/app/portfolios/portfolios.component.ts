@@ -28,6 +28,18 @@ export class PortfoliosComponent implements OnInit {
   ill_count = 0;
  ill_src: string = this.web_links[this.web_count];
 
+
+  gfx_links: string[] = [
+    "https://media.discordapp.net/attachments/847743058766331924/850307062541582336/unknown.png?width=374&height=431",
+    "https://media.discordapp.net/attachments/847743058766331924/850306361581633537/unknown.png?width=351&height=432",
+    "https://media.discordapp.net/attachments/847743058766331924/850306701361414164/unknown.png?width=559&height=431",
+    "https://media.discordapp.net/attachments/847743058766331924/850306763928109066/unknown.png?width=562&height=432",
+    "https://media.discordapp.net/attachments/847743058766331924/850306811898363964/unknown.png?width=582&height=432",
+    "https://media.discordapp.net/attachments/847743058766331924/850306857843294228/unknown.png?width=560&height=432"
+  ];
+  gfx_count = 0;
+ gfx_src: string = this.gfx_links[this.gfx_count];
+
   constructor() { }
 
   ngOnInit(): void {
@@ -49,7 +61,18 @@ export class PortfoliosComponent implements OnInit {
       this.ill_count++;
     }
       this.ill_src = this.ill_links[this.ill_count];
+
+      
+    if(this.gfx_count >= this.gfx_links.length - 1){
+      this.gfx_count = 0;
+    }
+    else{
+      this.gfx_count++;
+    }
+      this.gfx_src = this.gfx_links[this.gfx_count];
+  }
+
   }
 
 
-}
+

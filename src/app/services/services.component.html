@@ -3,6 +3,7 @@
     <div class="text-gray-600 md:text-xl text-md">
       <span class="md:text-6xl text-3xl pop font-semibold text-gray-600" >Our Services</span>
       <hr class="m-4">
+      <!--
       <div class="md:grid xl:grid-cols-4 md:grid-cols-2">
       <div class="bg-white p-5 shadow-md rounded-sm m-4 centered hover:shadow-2xl">
         <img src="https://media.discordapp.net/attachments/756897742093287435/844868421827952660/webdev.png?width=408&height=408" alt="Web Development">
@@ -37,6 +38,12 @@
       <div class="bg-white p-5 shadow-md rounded-sm m-4 centered hover:shadow-2xl">
         <img src="https://media.discordapp.net/attachments/756897742093287435/844875506733809674/ill.png?width=408&height=408" alt="">
       </div>
+      </div>
+      -->
+      <div class="bg-white p-5 shadow-md rounded-sm lg:mx-24 md:mx-14 mx-8 my-4 centered hover:shadow-2xl">
+        <button class="material-icons focus:outline-none p-4 rounded-full bg-gray-100 shadow-md" (click)="prev()">navigate_before</button>
+        <img [src]="src" alt="">
+        <button class="material-icons focus:outline-none p-4 rounded-full bg-gray-100 shadow-md" (click)="next()">navigate_next</button>
       </div>
     </div>
   </div>
