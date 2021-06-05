@@ -9,9 +9,7 @@ export class PortfoliosComponent implements OnInit {
   web_links: string[] = [
   "https://media.discordapp.net/attachments/847743058766331924/848416714848600105/unknown.png",
   "https://media.discordapp.net/attachments/847743058766331924/848416844427558912/unknown.png",
-  "https://media.discordapp.net/attachments/847743058766331924/848416436203683902/unknown.png",
-  "https://media.discordapp.net/attachments/847743058766331924/849213137298653184/develop-a-professional-website-for-you.png",
-  "https://media.discordapp.net/attachments/847743058766331924/849213181212885012/develop-a-professional-website-for-you.png"
+  "https://media.discordapp.net/attachments/847743058766331924/848416436203683902/unknown.png"
   ];
   web_count = 0;
  web_src: string = this.web_links[this.web_count];

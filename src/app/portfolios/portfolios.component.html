@@ -2,20 +2,20 @@
   <div>
     <div class="text-gray-600 md:text-xl text-md">
       <span class="md:text-6xl text-3xl pop font-semibold text-gray-600" >Our Portfolios</span>
-      <mat-tab-group class="">
+      <mat-tab-group class="centered mt-8">
         <mat-tab label="Website Development">
       <div class="bg-white shadow-md rounded-sm lg:mx-20 md:mx-10 mx-4 my-4 centered hover:shadow-2xl p-5"id="port">
-        <img [src]="web_src" alt="Portfolios" class="w-full" (click)="next()" ng-class="{visible:imageVisible}">
+        <img [src]="web_src" alt="Portfolios" class="w-full" ng-class="{visible:imageVisible}">
       </div>
         </mat-tab>
         <mat-tab label="Illustrations">
       <div class="bg-white shadow-md rounded-sm lg:mx-20 md:mx-10 mx-4 my-4 centered hover:shadow-2xl p-5"id="port">
-        <img [src]="ill_src" alt="Portfolios" class="h-full" (click)="next()" ng-class="{visible:imageVisible}">
+        <img [src]="ill_src" alt="Portfolios" class="h-full" ng-class="{visible:imageVisible}">
       </div>
         </mat-tab>
         <mat-tab label="GFX">
-      <div class="bg-white shadow-md rounded-sm mx-auto centered hover:shadow-2xl p-5"id="port">
-        <img [src]="gfx_src" alt="Portfolios" class="h-full" (click)="next()" ng-class="{visible:imageVisible}">
+      <div class="bg-white shadow-md rounded-sm mx-auto my-4 centered hover:shadow-2xl p-5"id="port">
+        <img [src]="gfx_src" alt="Portfolios" class="h-full" ng-class="{visible:imageVisible}">
       </div>
         </mat-tab>
       </mat-tab-group>

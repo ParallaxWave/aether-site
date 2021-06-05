@@ -25,7 +25,7 @@ export class ServicesComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    setInterval(() => this.next(), 5000);
+//    setInterval(() => this.next(), 5000);
   }
   next():void{
     if(this.count >= this.links.length - 1){
