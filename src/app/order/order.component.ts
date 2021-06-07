@@ -17,6 +17,7 @@ export class OrderComponent implements OnInit {
   icon: string;
   service: string = "";
   desc: string;
+  budget: string;
   url = "https://AceBackend.parallaxwave.repl.co/send/";
 
   async doGoogleLogin(){
@@ -33,9 +34,9 @@ export class OrderComponent implements OnInit {
 }
 
   async submit(){
-    if(this.username && this.service && this.desc){
-      const { username, service, desc, email, icon } = this;
-      const data = { username, service, desc, email, icon };
+    if(this.username && this.service && this.desc && this.budget){
+      const { username, service, desc, email, icon, budget } = this;
+      const data = { username, service, desc, email, icon, budget };
       const options = {
         method: 'POST',
         headers: {
@@ -51,7 +52,7 @@ export class OrderComponent implements OnInit {
           duration: 6000,
         });
       }
-      this.username = this.service = this.desc = "";
+      this.username = this.budget = this.service = this.desc = "";
     }
   }
 
