@@ -44,7 +44,6 @@ export class OrderComponent implements OnInit {
         },
         body: JSON.stringify(data)
       };
-//      console.log(this.http.post(this.url, data, options2)); 
       const req = await fetch(this.url, options);
       const res = await req.json();
       if(res){
