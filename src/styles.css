@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 *{
   outline: none;
-  font-family: "Roboto";
+  font-family: "Raleway";
   scroll: smooth;
   transition: 0.3s;
 }
@@ -32,9 +32,13 @@
   color: #8EC8D4;
 }
 
+.sc{
+  font-family: "Encode Sans SC";
+  letter-spacing: 5px;
+}
 .pop{
   font-family: "Comfortaa";
 }
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; }
