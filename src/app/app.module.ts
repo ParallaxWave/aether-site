@@ -14,12 +14,14 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatTabsModule } from '@angular/material/tabs';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFireAuthModule } from '@angular/fire/auth';
-import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AngularFireAnalyticsModule } from '@angular/fire/analytics';
 import { environment } from '../environments/environment';
 import { WebdevComponent } from './webdev/webdev.component';
 import { TestemonialsComponent } from './testemonials/testemonials.component';
 import { PortfoliosComponent } from './portfolios/portfolios.component';
+import { ScullyLibModule } from '@scullyio/ng-lib';
+import { NgxSlidesModule } from 'ngx-slides'
+
 
 @NgModule({
   declarations: [
@@ -40,10 +42,11 @@ import { PortfoliosComponent } from './portfolios/portfolios.component';
     BrowserAnimationsModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireAuthModule, 
-    AngularFirestoreModule,
     MatSnackBarModule,
     MatTabsModule,
-    AngularFireAnalyticsModule
+    AngularFireAnalyticsModule,
+    ScullyLibModule,
+    NgxSlidesModule
   ],
   providers: [],
   bootstrap: [AppComponent]

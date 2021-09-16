@@ -1,7 +1,7 @@
 .title{
   font-family: "Poppins";
 }
-@media (max-width: 768px) {                  
+@media (max-width: 800px) {                  
    .hide-on-small {
       display: none;
    }
